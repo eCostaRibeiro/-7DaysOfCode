@@ -10,6 +10,7 @@ var values = {
     numeroTrinta: 30,
     stringTrinta: "30"
 };
+var debugMaroto = console.log;
 //definição de funções
 function compareType(x, y) {
     if (typeof x === typeof y)
@@ -22,26 +23,26 @@ function compareValue(x, y) {
     if (compareType(x, y)) {
         switch (x == y) {
             case true:
-                console.log("Variáveis com tipos e valores iguais");
+                debugMaroto("Variáveis com tipos e valores iguais");
                 break;
             case false:
-                console.log("Variáveis com tipos iguais e valores diferentes");
+                debugMaroto("Variáveis com tipos iguais e valores diferentes");
                 break;
             default:
-                console.log("entrei no default IF de CompareValue");
+                debugMaroto("entrei no default IF de CompareValue");
                 break;
         }
     }
     else {
         switch (x == y) {
             case true:
-                console.log("Variáveis com tipos diferentes e valores iguais");
+                debugMaroto("Variáveis com tipos diferentes e valores iguais");
                 break;
             case false:
-                console.log("Variáveis com tipos e valores diferentes");
+                debugMaroto("Variáveis com tipos e valores diferentes");
                 break;
             default:
-                console.log("entrei no default ELSE de CompareValue");
+                debugMaroto("entrei no default ELSE de CompareValue");
                 break;
         }
     }
