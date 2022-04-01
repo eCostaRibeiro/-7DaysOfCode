@@ -1,2 +1,2 @@
 # SeteDiasDeCodigo
-atividades de JS
+atividades de JS do desafio Alura #7DaysOfCode
