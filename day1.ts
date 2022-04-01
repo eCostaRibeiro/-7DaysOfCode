@@ -59,7 +59,5 @@ justCompare(values.stringDez, values.numeroTrinta)    // string != number
 justCompare(values.stringTrinta, values.stringUm)     // string != string
 
 export {
-    compareType,
-    compareValue,
     justCompare
 }

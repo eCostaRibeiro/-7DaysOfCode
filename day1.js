@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.justCompare = exports.compareValue = exports.compareType = void 0;
+exports.justCompare = void 0;
 //definição de variáveis
 var values = {
     numeroUm: 1,
@@ -18,7 +18,6 @@ function compareType(x, y) {
     else
         return false;
 }
-exports.compareType = compareType;
 function compareValue(x, y) {
     if (compareType(x, y)) {
         switch (x == y) {
@@ -47,7 +46,6 @@ function compareValue(x, y) {
         }
     }
 }
-exports.compareValue = compareValue;
 function justCompare(x, y) {
     compareValue(x, y);
 }
