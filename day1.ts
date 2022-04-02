@@ -1,5 +1,3 @@
-import { isStringLiteral } from "typescript"
-
 //definição de variáveis
 const values = {
     numeroUm: 1,
